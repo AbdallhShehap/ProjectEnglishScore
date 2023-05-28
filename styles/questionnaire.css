@@ -1,0 +1,46 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+body a{
+    text-decoration: none;
+    color: #fff;
+}
+:root {
+    --main-color:#1E4A66;
+    --secondary-color: #24A2C1
+ }
+.navbar-style{
+    background-color: var(--main-color);
+}
+.footer-style{
+    background-color: var(--main-color);
+}
+.questionaire-box{
+    border: 1px solid #000;
+}
+.questionnaire-btn{
+    background-color: var(--main-color);
+    color: #fff;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+@media only screen and (max-width: 670px) {
+    .success-style{
+      font-size: 10px;
+    }
+    .paragraphs{
+        font-size: 10px;
+    }
+    .image-footer{
+        width: 70px;
+    }
+    .copyreight-footer{
+        font-size: 10px;
+    }
+  }
